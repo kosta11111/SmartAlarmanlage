@@ -3,7 +3,7 @@
 
 ## Als Erweiterung verwenden
 
-Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
+Dieses Repository kann als **Tutorial** in MakeCode hinzugefügt werden.
 
 * öffne [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * klicke auf **Neues Projekt**

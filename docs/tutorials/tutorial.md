@@ -11,11 +11,11 @@ einen Alarm abgibt und dich das über das Dashboard wissen lässt.
 
 ## Wichtig! @showdialog
 Stecke den **Ultraschallsensor** am **Port J2** an, um Fehler zu vermeiden!
-![Tutorialbild](Img.png)
+!**Schönes Bild vom Cube mit Ultraschallsensor am Port J2**
 
 Falls du **Probleme** beim Tutorial hast, kannst du beim klicken auf der **Glühbirne** sehen,
 **wie der Code ausschauen soll.**
-![Tutorialbild](https://github.com/kosta11111/Alarmanlage/blob/master/Gl%C3%BChbirne.png?raw=true)
+![Tutorialbild](https://github.com/kosta11111/SmartAlarmanlage/blob/master/docs/imgs/Gl%C3%BChbirne.png?raw=true)
 
 **Ziehe** das Tutorialfenster am Rand größer ODER **scroll** mit der Maus im Fenster immer **runter**,
 um keine Zwischenschritte zu verpassen.

@@ -6,7 +6,6 @@
 Dieses Repository kann als **Tutorial** in MakeCode hinzugefügt werden.
 
 * öffne das [Tutorial](https://makecode.microbit.org/#tutorial:github:kosta11111/SmartAlarmanlage/docs/tutorials/tutorial)
-* klicke auf **Neues Projekt**
 * klicke auf **Erweiterungen** unter dem Zahnrad-Menü
 * nach **https://github.com/kosta11111/smartalarmanlage** suchen und importieren
 

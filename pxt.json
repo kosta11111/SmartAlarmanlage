@@ -5,7 +5,6 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "pxt-iot-tutorial": "github:reifab/pxt-iot-tutorial#23c95f8bd2fa5a582aaaf9fbd4107437b3655a66",
         "cube": "github:Smartfeld/pxt-iot-cube",
         "sensors": "github:Smartfeld/pxt-sensorikAktorikSmartfeld"
     },

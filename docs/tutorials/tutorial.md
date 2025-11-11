@@ -11,7 +11,7 @@ einen Alarm abgibt und dich das über das Dashboard wissen lässt.
 
 ## Wichtig! @showdialog
 Stecke den **Ultraschallsensor** am **Port J2** an, um Fehler zu vermeiden!
-!**Schönes Bild vom Cube mit Ultraschallsensor am Port J2**
+**Schönes Bild vom Cube mit Ultraschallsensor am Port J2**
 
 Falls du **Probleme** beim Tutorial hast, kannst du beim klicken auf der **Glühbirne** sehen,
 **wie der Code ausschauen soll.**

@@ -10,14 +10,14 @@ In diesem Tutorial entwickelst du eine Alarmanlage, die bei einem Diebstahl dein
 einen Alarm abgibt und dich das über das Dashboard wissen lässt.
 
 ## Wichtig! @showdialog
-Stecke den **Ultraschallsensor** am **Port J2** an, um Fehler zu vermeiden!
-**Schönes Bild vom Cube mit Ultraschallsensor am Port J2**
+Stecke den **Ultraschallsensor** am **Port J2** an.
+![Tutorialbild](https://github.com/kosta11111/SmartAlarmanlage/blob/master/docs/imgs/IoTCube.png?raw=true) 
 
 Falls du **Probleme** beim Tutorial hast, kannst du beim klicken auf der **Glühbirne** sehen,
-**wie der Code ausschauen soll.**
+wie der Code ausschauen soll.
 ![Tutorialbild](https://github.com/kosta11111/SmartAlarmanlage/blob/master/docs/imgs/Gl%C3%BChbirne.png?raw=true)
 
-**Ziehe** das Tutorialfenster am Rand größer ODER **scroll** mit der Maus im Fenster immer **runter**,
+Ziehe das Tutorialfenster am Rand größer **ODER** scroll mit der Maus im Fenster immer runter,
 um keine Zwischenschritte zu verpassen.
 
 ## Schritt 1

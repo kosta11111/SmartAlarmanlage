@@ -18,9 +18,6 @@ Falls du **Probleme** beim Tutorial hast, kannst du beim klicken auf der **Glüh
 wie der Code ausschauen soll.
 ![Tutorialbild](https://github.com/kosta11111/SmartAlarmanlage/blob/master/docs/imgs/Gl%C3%BChbirne.png?raw=true)
 
-Ziehe das Tutorialfenster am Rand größer **ODER** scroll mit der Maus im Fenster immer runter,
-um keine Zwischenschritte zu verpassen.
-
 ## Schritt 1
 
 Als erster Schritt ziehen wir eine ``||logic:Wenn-Abfrage||`` 

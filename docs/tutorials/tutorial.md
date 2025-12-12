@@ -20,8 +20,8 @@ wie der Code ausschauen soll.
 
 ## Schritt 1
 
-Als ersten Schritt ziehen wir eine ``||logic:Wenn-Abfrage||`` 
-in den ``||basic:dauerhaft||`` Codeblock rein. Das ist wichtig, um zu prüfen,
+Als ersten Schritt **ziehen** wir eine ``||logic:Wenn-Abfrage||`` 
+in den ``||basic:dauerhaft||`` Codeblock **rein**. Das ist wichtig, um zu prüfen,
 ob unser Objekt noch da ist.
 
 ```blocks 
@@ -36,9 +36,9 @@ basic.forever(function () {
 Jetzt wollen wir, dass der Cube einen Alarm schlägt, wenn der Ultraschallsensor
 nichts in 10 cm Reichweite erkennt.
 
-* Ziehe den ``||logic:Vergleichscodeblock||`` in das Sechseck der Wenn-Abfrage rein.
-* Benutze den ``||smartfeldSensoren:Distanz in cm||`` Codeblock, um zu prüfen,
-ob der gemessene Wert größer als 10 ist.
+* **Ziehe** den ``||logic:Vergleichscodeblock||`` in das **Sechseck** der **Wenn-Abfrage** rein.
+* **Benutze** den ``||smartfeldSensoren:Distanz in cm||`` Codeblock, um zu **prüfen**,
+ob der gemessene Wert **größer als 10** ist.
 * ``||music:spiele Ton||`` kommt in die Abfrage. Änder den Schlag auf 1/2, um einen
 typischen Alarmsound zu bekommen
 
@@ -52,19 +52,19 @@ basic.forever(function () {
 ## Schritt 3
 
 Der IoT-Cube funktioniert jetzt als eine Alarmanlage, aber man kann diese nicht deaktivieren.
-Das Feature implementieren wir mit den A + B-Knöpfen.
+Das Deaktivieren implementieren wir mit den A + B-Knöpfen.
 
-* Ziehe den ``||input: Wenn Knopf A geklickt||`` zweimal in das Programm und ändere 
-bei einem der beiden Codeblöcken den Buchstaben auf ein B um.
+* **Ziehe** den ``||input: Wenn Knopf A geklickt||`` **zweimal** in das Programm und **ändere** 
+bei einem der beiden Codeblöcken **den Buchstaben** auf ein **B** um.
 * Erstelle eine neue ``||Variables:Variable||`` namens **"aktiv"**. Setze sie mit 
-den Codeblöcken der gleichen Kategorie beim Betätigen von A auf 1 und beim Klicken 
-von B auf 0.
-* Füge den ``||loops:während||`` Codeblock in den ``||basic:dauerhaft||`` Block 
-und ziehe den dort bereits stehenden Code in die Schleife.
-* Ziehe in den Parameter der Schleife die neue Variable ``||Variables:aktiv||``
+den Codeblöcken der gleichen Kategorie beim Betätigen von **A** auf **1** und beim Klicken 
+von **B** auf **0**.
+* Füge den ``||loops:während||`` Codeblock in den ``||basic:dauerhaft||`` Block hinzu 
+und ziehe den dort bereits stehenden Code **in die Schleife**.
+* **Ziehe** in den **Parameter** der Schleife die neue Variable ``||Variables:aktiv||``
 rein.
 
-Drücke auf A, um die Alarmanlage einzuschalten und auf B, um sie zu deaktivieren.
+Drücke auf **A**, um die Alarmanlage einzuschalten und auf **B**, um sie zu deaktivieren.
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -88,13 +88,13 @@ basic.forever(function () {
 Jetzt haben wir zwar eine Alarmanlage, aber noch keine Verbindung mit der Claviscloud.
 Das wollen wir jetzt ändern. 😉
 
-* Ziehe den ``||IoTCube:LoRa Netzwerk-Verbindung||`` Block in den ``||basic:beim Start||``
-Block rein.
-* Ziehe danach den ``||loops:während||`` Block rein und in seinen Parameter den 
-``||logic:nicht||`` Block rein und in dieses kommt der ``||IoTCube:Gerätstatus-Bit||``
+* **Ziehe** den ``||IoTCube:LoRa Netzwerk-Verbindung||`` Block in den ``||basic:beim Start||``
+Block **rein**.
+* **Ziehe** danach den ``||loops:während||`` Block rein und in seinen **Parameter** den 
+``||logic:nicht||`` Block rein. In die Schleife kommt der ``||IoTCube:Gerätstatus-Bit||``
 Block, der auf **"Verbunden"** gestellt ist.
-* Während der IoT-Cube noch nicht verbunden ist, sollen die LED's unter ``||basic:zeige Symbol||``
-ein X zeigen, sonst einen Haken.
+* Während der IoT-Cube noch **nicht verbunden** ist, sollen die LED's unter ``||basic:zeige Symbol||``
+ein X zeigen, sonst einen **Haken**.
 
 ```blocks
 IoTCube.LoRa_Join(

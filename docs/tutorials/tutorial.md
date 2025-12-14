@@ -168,8 +168,8 @@ mit dem Namen **objektSicher** und **objektGeklaut**.
 * Wir machen eine neue ``||variables: Variable |`` namens **objektVorhanden**
 und setzen sie in ``||functions:objektSicher||`` auf **1**, während wir sie in
 ``||functions:objektGeklaut||`` auf **0** setzen.
-* In beiden Funktionen ziehst du den ``||functions:Aufruf sendeDaten||`` rein und ziehst
-in den Parameter die ``||variables: objektVorhanden |`` Variable rein.
+* In **beiden Funktionen** ziehst du den ``||functions:Aufruf sendeDaten||`` rein und ziehst
+in den **Parameter** die ``||variables: objektVorhanden |`` Variable rein.
 
 ```blocks
 function objektSicher () {
@@ -187,10 +187,10 @@ function objektGeklaut () {
 Nun haben wir unsere zwei Funktionen, welche unserem Dashboard Bescheid geben,
 ob unser Objekt vom Ultraschallsensor erfasst wird oder geklaut wurde.
 
-* Füge den ``||functions:Aufruf objektSicher||`` in den Start hinzu, um
+* **Füge** den ``||functions:Aufruf objektSicher||`` in den **Start** hinzu, um
 beim Starten den Programms das Dashboard auf den richtigen Zustand zu aktuallisieren.
-* Füge den ``||functions:Aufruf objektGeklaut||`` in die ``||logic:Wenn-Abfrage||`` 
-von dauerhaft hinzu, drücke auf das Plus der Abfrage und füge dann in  **ansonsten** den
+* **Füge** den ``||functions:Aufruf objektGeklaut||`` in die ``||logic:Wenn-Abfrage||`` 
+von dauerhaft **hinzu**, drücke auf das **Plus der Abfrage** und füge dann in  **ansonsten** den
 ``||functions:Aufruf objektSicher||`` hinzu.
 
 ```blocks
@@ -223,11 +223,11 @@ basic.forever(function () {
 Um sicherzugehen, dass die Daten verlässlich gesendet wurden, machen wir eine Schleife
 die prüft, ob die Daten beim Aufrufen der Funktion geschickt wurden.
 
-* Ziehe den Block ``||loops: alle 500ms ||`` ins Programm.
-* Ziehe den ``||logic: wenn dann ||`` Block in die Schleife.
-* Ziehe die Variable ``||variables: spaeterSenden |`` ins leere Feld
-der Wenn-Abfrage.
-* rufe die Funktion ``||functions: sendeDaten(objektVorhanden) ||`` in der Schleife auf.
+* **Ziehe** den Block ``||loops: alle 500ms ||`` ins **Programm**.
+* **Ziehe** den ``||logic: wenn dann ||`` Block in die **Schleife**.
+* **Ziehe** die Variable ``||variables: spaeterSenden |`` ins leere Feld
+der **Wenn-Abfrage**.
+* **Rufe** die Funktion ``||functions: sendeDaten(objektVorhanden) ||`` in der **Schleife** auf.
 
 ```blocks
 loops.everyInterval(500, function () {

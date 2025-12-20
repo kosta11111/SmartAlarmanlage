@@ -14,7 +14,7 @@ wie der Code ausschauen soll.
 ![Tutorialbild](https://github.com/kosta11111/SmartAlarmanlage/blob/master/docs/imgs/Gl%C3%BChbirne.png?raw=true)
 
 Klicke auf die **Codeschnipsel** im Text, um direkt zu den **Codeblöcken** zu kommen!
-![Tutorial]
+![Tutorialbild](https://github.com/kosta11111/SmartAlarmanlage/blob/master/docs/imgs/Codeschnipsel.png?raw=true)
 
 ## Schritt 1
 

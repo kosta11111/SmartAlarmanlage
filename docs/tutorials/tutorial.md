@@ -34,9 +34,9 @@ basic.forever(function () {
 Jetzt wollen wir, dass der Cube einen Alarm schlägt, wenn der Ultraschallsensor
 nichts in 10 cm Reichweite erkennt.
 
-* **Ziehe** den ``||logic:Vergleichscodeblock||`` in das **Sechseck** der **Wenn-Abfrage** rein.
-* **Benutze** den ``||smartfeldSensoren:Distanz in cm||`` Codeblock, um zu **prüfen**,
-ob der gemessene Wert **größer als 10** ist.
+* **Ziehe** den ``||logic:0 < 0||`` Block in die **Bedinung** der **Wenn-Abfrage** rein.
+* **Ziehe** den ``||smartfeldSensoren:Distanz in cm||`` Codeblock in die rechte Null
+* **Schreibe** in die linke Null eine **10**
 * ``||music:spiele Ton||`` kommt in die Abfrage. Änder den Schlag auf 1/2, um einen
 typischen Alarmsound zu bekommen
 

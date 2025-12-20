@@ -1,13 +1,8 @@
-```package
-iot-cube=github:Smartfeld/pxt-iot-cube#v1.1.2
-sensors=github:Smartfeld/pxt-sensorikAktorikSmartfeld
-```
-
 # Alarmanlage
 
 ## Willkommen!
-In diesem Tutorial entwickelst du eine Alarmanlage, die bei einem Diebstahl deines bewachten Objekts
-einen Alarm abgibt und dich das über das Dashboard wissen lässt.
+In dem ersten Teil des Tutorials entwickelst du eine Alarmanlage, die bei einem Diebstahl deines 
+bewachten Objekts einen Alarm abgibt.
 
 ## Wichtig! @showdialog
 Stecke den **Ultraschallsensor** am **Port J2** an.  
@@ -15,8 +10,11 @@ Stecke den **Ultraschallsensor** am **Port J2** an.
 ![Tutorialbild](https://github.com/kosta11111/SmartAlarmanlage/blob/master/docs/imgs/IoTCube.png?raw=true) 
 
 Falls du **Probleme** beim Tutorial hast, kannst du beim Klicken auf der **Glühbirne** sehen,
-wie der Code ausschauen soll.
+wie der Code ausschauen soll. 
 ![Tutorialbild](https://github.com/kosta11111/SmartAlarmanlage/blob/master/docs/imgs/Gl%C3%BChbirne.png?raw=true)
+
+Klicke auf die **Codeschnipsel** im Text, um direkt zu den **Codeblöcken** zu kommen!
+![Tutorial]
 
 ## Schritt 1
 

@@ -236,8 +236,6 @@ loops.everyInterval(500, function () {
 ```
 ## Glückwunsch🤩
 
-Du hast eine Alarmanlage programmiert! Gehe auf 
-[Claviscloud](https://iot.claviscloud.ch/), um dein IoT-Cube mit dem 
-Alarmanlagen-Widget zu verbinden und schau, ob sich der Status des Widgets richtig
-ändert. Was passiert, wenn du einen Gegenstand vor den Ultraschallsensor hinlegst?
-Was passiert, wenn du diesen dann wegnimmst?
+Du hast eine einfache Alarmanlage programmiert und somit den ersten Teil des Tutorials 
+absolviert! Durch das Klicken auf den [Link](https://makecode.microbit.org/#tutorial:github:kosta11111/SmartAlarmanlage/docs/tutorials/tutorial_part2)
+kommst du zum zweiten Teil des Turials, in dem du den IoT-Cube mit der Claviscloud verbindest.

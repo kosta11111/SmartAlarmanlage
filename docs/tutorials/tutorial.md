@@ -57,17 +57,17 @@ basic.forever(function () {
 Der IoT-Cube funktioniert jetzt als eine Alarmanlage, aber man kann den Alarm nicht deaktivieren.
 Das Deaktivieren implementieren wir mit den A + B-Knöpfen.
 
-* **Ziehe** den ``||input: Wenn Knopf A geklickt||`` Codeblock **zweimal** in das Programm
+* **Ziehe** den ``||input: Wenn Knopf A geklickt||`` Codeblock **zweimal** in das Programm
  
-* **Ändere** bei **einem** der beiden Codeblöcken **den Buchstaben** auf ein **B** um.
+* **Ändere bei einem** der beiden Codeblöcken **den Buchstaben** auf ein **B** um.
 
 * Erstelle eine neue ``||Variables:Variable||`` namens **"aktiv"**.
 
 * **Füge** ``||Variables:setze aktiv auf 0||`` in ``||input: Wenn Knopf B geklickt||`` ein.
 
-* Wiederhole den Schritt bei ``||input: Wenn Knopf A geklickt||`` und änder die Zahl auf 1.
+* **Wiederhole** den Schritt bei ``||input: Wenn Knopf A geklickt||`` und änder die Zahl auf 1.
 
-* **Füge** den ``||loops:während||`` Codeblock in den ``||basic:dauerhaft||`` Block hinzu 
+* **Füge** den ``||loops:während||`` Codeblock oben in den ``||basic:dauerhaft||`` Block hinzu 
 
 * **Ziehe** den dort **bereits stehenden Code in die Schleife**.
 
